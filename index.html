@@ -8,13 +8,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="script.js"></script>
     <title>Idea Generator</title>
     <link rel="stylesheet" href="style.css">
-<body class="body">
-    <div>
+<body class="body" >
+    <div >
     <nav>
     
-        <a class="navbar-home"href="#">Home</a>
+        <a class="navbar-home "href="#">Home</a>
         <a class="how-it-works"href="#">how it works</a>
         <a class="about"href="#">About</a>
     </div>    
@@ -35,7 +36,8 @@
 <!-- <button onclick="location.href='/random-game'">Get Random Idea</button> -->
 </section>
 
-<button onclick="location.href='/random-game'"class="button">Get Random Idea</button>
+<button id="button1"  class="button" onclick="location.href='/random-game ">Get Random Idea</button>
+<div id = idea-box></div>
 
 
 
@@ -65,9 +67,7 @@
     
     
     <footer class="footer">
-        <p>&copy; 2023 ideaGenerator. All rights reserved.
-            author: <a href="
-        </p>
+        <p>&copy; 2023 ideaGenerator. All rights reserved.</p>
     </footer>
 
 

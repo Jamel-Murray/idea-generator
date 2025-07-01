@@ -27,3 +27,18 @@ Utility classes
 
 
 
+async function searchBookByTitle(title, page) {-
+
+كها
+
+function renderBooks (bookData) {"
+}
+
+function renderPagination (numFound) {-
+
+function renderLoading() {"
+}
+
+function renderSortButton() {-
+
+async function handleSubmitTitleSearch(event) {-
